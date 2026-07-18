@@ -1,0 +1,32 @@
+﻿/* Auto-generated from inline style="..." in HomeScreen.sharq */
+.sharq-HomeScreen-s0 {
+    flex-grow: 1; align-items: center; justify-content: center;
+                         background-color: var(--sus-bg-page);
+}
+
+.sharq-HomeScreen-s1 {
+    align-items: center; padding: 32px 40px; border-radius: 16px;
+                             background-color: var(--sus-bg-surface);
+                             border-width: 1px; border-color: var(--sus-border);
+}
+
+.sharq-HomeScreen-s2 {
+    font-size: 28px; color: var(--sus-text-primary);
+                         -unity-text-align: middle-center;
+}
+
+.sharq-HomeScreen-s3 {
+    margin-top: 8px; font-size: 15px; color: var(--sus-text-secondary);
+                         -unity-text-align: middle-center;
+}
+
+.sharq-HomeScreen-s4 {
+    margin-top: 20px; padding: 6px 16px; border-radius: 999px;
+                                 background-color: var(--sus-primary);
+}
+
+.sharq-HomeScreen-s5 {
+    font-size: 13px; color: var(--sus-text-on-primary);
+                             -unity-text-align: middle-center;
+}
+

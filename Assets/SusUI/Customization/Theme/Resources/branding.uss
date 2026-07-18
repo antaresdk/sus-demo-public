@@ -1,0 +1,34 @@
+/* ────────────────────────────────────────────────────────────────
+   branding.uss — YOUR project token overrides (the top cascade layer).
+
+   Loaded by App.cs: .UseCustomStyles("branding")
+   (the file must stay inside a Resources/ folder — the path is the
+   resource name, without extension).
+
+   Only the variables you declare here are overridden; everything else
+   keeps cascading from the layers below. Uncomment, edit, press Play.
+   Layer reference: docs/SUS_THEMING_LAYERS_ARCHITECTURE.md
+   ──────────────────────────────────────────────────────────────── */
+
+:root {
+    /* ── Colors (L2 aliases) — brand accent for buttons/links/accents ──
+       Theme-dependent colors go through --thm-*; overriding them here
+       recolors BOTH themes. For per-theme values use .theme-dark/.theme-light
+       blocks below. */
+    /* --thm-primary:         rgb(103, 80, 164); */
+    /* --thm-primary-hover:   rgb(125, 103, 190); */
+    /* --thm-primary-pressed: rgb(86, 61, 140);  */
+
+    /* ── Sizes & shape (L4 kit tokens) — same override scheme as colors ── */
+    /* --sk-radius-md:     8px;    corners of buttons/cards/inputs */
+    /* --sk-font-body:     15px;   base text size of all kit components */
+    /* --sk-button-radius: 999px;  pill buttons, overrides --sk-radius-md for buttons */
+}
+
+/* Per-theme overrides — win only while the theme class is active: */
+/* .theme-dark {
+    --thm-primary: rgb(140, 120, 200);
+} */
+/* .theme-light {
+    --thm-primary: rgb(80, 60, 140);
+} */

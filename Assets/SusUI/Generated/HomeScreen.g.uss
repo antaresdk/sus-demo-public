@@ -1,0 +1,6 @@
+﻿/* Root/self-target styles live in inline style="" above (Sharq scoping would rewrite
+   .home-screen to ".home-screen .home-screen" and never match the root element).
+   Child-only selectors are safe here, e.g.: */
+.home-screen__card:hover {
+    border-color: var(--sus-primary);
+}
