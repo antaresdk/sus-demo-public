@@ -26,7 +26,7 @@ You should see the Home screen ("Welcome to SUS").
 | `Assets/SusUI/MyApp.cs` | Entry: `SusApp` bootstrap |
 | `Assets/SusUI/HomeScreen.sharq` | First screen (edit this) |
 | `Assets/SusUI/Customization/` | Theme / fonts / icons |
-| `Packages/manifest.json` | Only core `#v1.0.2` + router `#v1.0.1` from GitHub |
+| `Packages/manifest.json` | Only core `#v1.0.3` + router `#v1.0.2` from GitHub |
 
 ## Next steps
 
